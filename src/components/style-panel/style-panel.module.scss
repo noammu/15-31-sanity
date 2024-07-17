@@ -1,0 +1,32 @@
+.root {
+  background-color: transparent;
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #eefb18 0%,
+    rgba(43, 43, 43, 0.83) 16%,
+    #e86262 30%,
+    rgba(99, 99, 99, 0.61) 39%,
+    rgba(120, 120, 120, 0.53) 44%,
+    #7e1e1e 71%,
+    #2e0808 86%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-position: 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-style: italic;
+  font-family: Monaco, monospace;
+  direction: ltr;
+  text-align: center;
+  box-shadow: 0.15px 5px 32px 33px #cb70f3;
+}
+.img1 {
+  width: 150px;
+  opacity: 0.4;
+  cursor: pointer;
+}

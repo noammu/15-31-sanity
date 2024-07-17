@@ -1,0 +1,12 @@
+.root {
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 20px;
+}
+.video1 {
+  grid-row: 2 / 4;
+  grid-column: 1 / 4;
+  width: 250px;
+}
